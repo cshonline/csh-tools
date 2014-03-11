@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+qihu_call:
+  symbol: qihu
+  type: call
+  strike: 1.5
+  last: 1.5
+  bid: 1.5
+  ask: 1.5
+  vol: 100
+  open_int: 2 
+  expiration: 2014-02-22
+qihu_put:
+  symbol: qihu
+  type: put
+  strike: 1.5
+  last: 1.5
+  bid: 1.5
+  ask: 1.5
+  vol: 3
+  open_int: 30
+  expiration: 2014-02-22

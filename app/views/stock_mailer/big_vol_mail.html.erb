@@ -1,0 +1,26 @@
+<table>
+  <tr>
+  <th>Symbol</th>
+  <th>Type</th>
+  <th>Strike</th>
+  <th>Expiration</th>
+  <th>Last</th>
+  <th>Bid</th>
+  <th>Ask</th>
+  <th>Vol</th>
+  <th>OpenInt</th>
+  </tr>
+<%@options_data.each do |option| %>
+  <tr>
+    <td><%=option.symbol%></td>
+    <td><%=option.type%></td>
+    <td><%=option.strike%></td>
+    <td><%=option.expiration%></td>
+    <td><%=option.last%></td>
+    <td><%=option.bid%></td>
+    <td><%=option.ask%></td>
+    <td><%=option.vol%></td>
+    <td><%=option.open_int%></td>
+  </tr>
+<% end %>
+</table>
